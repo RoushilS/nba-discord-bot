@@ -13,7 +13,7 @@ async function checkGames() {
     const [home, away] = comp.competitors;
 
     const message = `${away.team.displayName} ${away.score} - ${home.score} ${home.team.displayName}`;
-
+    console.log("URL:", URL);
     await fetch(WEBHOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },

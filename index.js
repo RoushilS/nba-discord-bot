@@ -1,5 +1,4 @@
 const WEBHOOK_URL = "process.env.WEBHOOK_URL";
-const fetch = require("node-fetch");
 const URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 
 async function checkGames() {

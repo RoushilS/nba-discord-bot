@@ -1,4 +1,4 @@
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1495135554701103145/y25b0KOjCVM7iiDTrBlNmScEoPPg-pUrHznlVp6sKn_JWuZKsmGvRc6o_GsheUA65ofI";
+const WEBHOOK_URL = "process.env.WEBHOOK_URL";
 const fetch = require("node-fetch");
 const URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 

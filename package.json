@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/RoushilS/nba-discord-bot/issues"
   },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
   "homepage": "https://github.com/RoushilS/nba-discord-bot#readme",
   "description": ""
 }
